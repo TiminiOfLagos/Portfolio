@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oluwadamilola Salami · UX Product Designer</title>
+  <meta name="description" content="Oluwadamilola Salami is a UX Product Designer crafting intuitive, scalable digital products for startups, fintech, SaaS, AI and PropTech companies. Lead designer of LangEasy and NPF Statement Capture." />
+  <meta property="og:title" content="Oluwadamilola Salami · UX Product Designer" />
+  <meta property="og:description" content="Turning complex ideas into intuitive, scalable products. Fintech · SaaS · AI." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0b0a09" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230b0a09'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-style='italic' font-size='17' fill='%23ff5b23' text-anchor='middle'%3EOS%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+
+  <!-- ======= PRELOADER ======= -->
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="preloader__inner">
+      <p class="preloader__name"><span class="preloader__line">Oluwadamilola</span></p>
+      <p class="preloader__name preloader__name--serif"><span class="preloader__line">Salami</span></p>
+      <span class="preloader__count" id="preloaderCount">0</span>
+    </div>
+  </div>
+
+  <!-- ======= CUSTOM CURSOR ======= -->
+  <div class="cursor" id="cursor" aria-hidden="true"><span class="cursor__label" id="cursorLabel"></span></div>
+
+  <!-- ======= NAV ======= -->
+  <header class="nav" id="nav">
+    <a class="nav__logo" href="#top" data-magnetic>OS<span class="nav__logo-dot">.</span></a>
+    <div class="nav__meta">
+      <span class="nav__status"><span class="nav__status-dot"></span>Available for work</span>
+      <span class="nav__location">Lagos, NG · <span id="localTime">00:00</span></span>
+    </div>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="https://calendly.com/salamitimileyin001/30min" target="_blank" rel="noopener" class="nav__cta" data-magnetic>Book a strategy call</a>
+      <button class="nav__burger" id="navBurger" aria-label="Open menu" aria-expanded="false" aria-controls="menu">
+        <span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ======= MENU OVERLAY ======= -->
+  <div class="menu" id="menu" aria-hidden="true">
+    <nav class="menu__links" aria-label="Menu">
+      <a href="#top"><i>01</i><span>Home</span></a>
+      <a href="about.html"><i>02</i><span>About me</span></a>
+      <a href="#work"><i>03</i><span>Completed work</span></a>
+      <a href="#spotlight"><i>04</i><span>Featured impact</span></a>
+      <a href="#testimonials"><i>05</i><span>Testimonials</span></a>
+      <a href="#faq"><i>06</i><span>FAQ</span></a>
+    </nav>
+    <div class="menu__foot">
+      <a class="menu__mail" href="mailto:salamitimileyin001@gmail.com">salamitimileyin001@gmail.com</a>
+      <span class="menu__loc">Lagos, Nigeria · WAT</span>
+    </div>
+  </div>
+
+  <main id="top">
+
+    <!-- ======= HERO ======= -->
+    <section class="hero" id="hero">
+      <canvas class="hero__canvas" id="heroCanvas" aria-hidden="true"></canvas>
+      <div class="hero__scrim" aria-hidden="true"></div>
+
+      <div class="hero__content">
+        <div class="hero__main">
+          <p class="hero__eyebrow" data-hero-fade>
+            <span class="hero__eyebrow-rule"></span>
+            UX Product Designer
+          </p>
+          <h1 class="hero__title">
+            <span class="hero__title-line hero__title-line--serif" data-hero-line>Oluwadamilola</span>
+            <span class="hero__title-line hero__title-line--big" data-hero-line>SALAMI</span>
+          </h1>
+          <div class="hero__foot">
+            <p class="hero__tag" data-hero-fade>
+              I turn complex ideas into intuitive, scalable digital
+              products for startups, product teams and AI companies
+              building things that matter.
+            </p>
+            <div class="hero__actions" data-hero-fade>
+              <a class="hero__scroll" href="#work" data-magnetic>
+                <span>Completed work</span>
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M7 1v11M2 7.5 7 12.5l5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+              <a class="hero__scroll hero__scroll--ghost" href="assets/Oluwadamilola-Salami-CV.pdf" target="_blank" rel="noopener" data-magnetic>
+                <span>View resume</span>
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M2 12 12 2M4 2h8v8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <figure class="hero__portrait" data-hero-fade>
+          <img src="assets/portrait.jpg" alt="Portrait of Oluwadamilola Salami" />
+        </figure>
+      </div>
+    </section>
+
+    <!-- ======= MARQUEE ======= -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track" id="marqueeTrack">
+        <span>UX Research</span><i>✦</i><span>UX Design</span><i>✦</i><span>UI Design</span><i>✦</i><span>Prototyping</span><i>✦</i><span>Design Systems</span><i>✦</i><span>Website Development</span><i>✦</i><span>Framer</span><i>✦</i><span>Webflow</span><i>✦</i><span>Motion Interaction</span><i>✦</i><span>Ongoing Support</span><i>✦</i><span>AI Products</span><i>✦</i>
+        <span>UX Research</span><i>✦</i><span>UX Design</span><i>✦</i><span>UI Design</span><i>✦</i><span>Prototyping</span><i>✦</i><span>Design Systems</span><i>✦</i><span>Website Development</span><i>✦</i><span>Framer</span><i>✦</i><span>Webflow</span><i>✦</i><span>Motion Interaction</span><i>✦</i><span>Ongoing Support</span><i>✦</i><span>AI Products</span><i>✦</i>
+      </div>
+    </div>
+
+    <!-- ======= ABOUT / STATEMENT ======= -->
+    <section class="about" id="about">
+      <div class="section-head">
+        <span class="section-head__index">01</span>
+        <span class="section-head__label">About</span>
+      </div>
+      <p class="about__statement" id="aboutStatement">
+        Design is a blend of <em>creativity</em> and <em>strategy.</em>
+        For 4+ years I've helped teams transform complex concepts into
+        user-centered products that <em>empower people</em> and move
+        businesses forward.
+      </p>
+      <div class="about__grid">
+        <div class="about__stats">
+          <div class="stat" data-reveal>
+            <span class="stat__num" data-count="4">0</span><span class="stat__plus">+</span>
+            <span class="stat__label">Years of experience</span>
+          </div>
+          <div class="stat" data-reveal>
+            <span class="stat__num" data-count="7">0</span><span class="stat__plus">+</span>
+            <span class="stat__label">Founders & product teams worked with</span>
+          </div>
+          <div class="stat" data-reveal>
+            <span class="stat__num" data-count="4">0</span><span class="stat__plus"></span>
+            <span class="stat__label">Industries: AI, SaaS, Fintech, PropTech</span>
+          </div>
+        </div>
+        <div class="about__pillars" data-reveal>
+          <p class="about__pillars-intro">How I work</p>
+          <ul class="about__chips">
+            <li>Creative</li><li>Strategic</li><li>User-centric</li>
+            <li>Business-aware</li><li>Impactful</li><li>Streamlined</li>
+            <li>Collaborative</li><li>Innovative</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= SELECTED WORK ======= -->
+    <section class="work" id="work">
+      <div class="section-head">
+        <span class="section-head__index">02</span>
+        <span class="section-head__label">Completed work</span>
+      </div>
+
+      <ul class="work__grid" id="workList">
+        <li class="work__card" data-hue="16" data-type="shipped">
+          <a href="https://awarri.com" target="_blank" rel="noopener">
+            <div class="work__visual" aria-hidden="true">
+              <b>Aw</b>
+              <img src="assets/awarri-cover.jpg" alt="" loading="lazy" />
+              <span class="work__visual-cat">AI Company</span>
+            </div>
+            <div class="work__body">
+              <div class="work__row"><h3>Awarri</h3><span class="work__year">2024–26</span></div>
+              <p>Awarri is the AI company enabling AI for Africa, building the data infrastructure behind Nigeria's first large language model. I co-designed their website in Figma and built it in Framer, elevating the UX through clearer navigation, content hierarchy and visual consistency. Since 2024 I've also designed across their product suite: LangEasy and its QA system, an audio segmentation platform and internal data tools, with two more products now in beta.</p>
+              <ul class="work__tags"><li>Product Suite</li><li>Figma Design</li><li>Framer Build</li></ul>
+            </div>
+          </a>
+        </li>
+        <li class="work__card" data-hue="190" data-type="shipped">
+          <a href="https://www.lodgecompliance.com/" target="_blank" rel="noopener">
+            <div class="work__visual" aria-hidden="true">
+              <b>Lc</b>
+              <img src="assets/lodge-cover.jpg" alt="" loading="lazy" />
+              <span class="work__visual-cat">PropTech · Compliance</span>
+            </div>
+            <div class="work__body">
+              <div class="work__row"><h3>Lodge Compliance</h3><span class="work__year">2026</span></div>
+              <p>Lodge Compliance turns fragmented short-term rental regulations across 80,000+ jurisdictions into structured, automated compliance for operators, booking platforms and governments. As their Design Engineer I led a UX refresh of the platform, designed in Figma and shipped in Webflow: auditing the site, restructuring content and flows, and resolving usability issues across every key page.</p>
+              <ul class="work__tags"><li>Design Engineer</li><li>Figma Design</li><li>Webflow Build</li></ul>
+            </div>
+          </a>
+        </li>
+        <li class="work__card" data-hue="210" data-type="shipped">
+          <a href="https://euphratestech.com" target="_blank" rel="noopener">
+            <div class="work__visual" aria-hidden="true">
+              <b>Eu</b>
+              <img src="assets/euphrates-cover.jpg" alt="" loading="lazy" />
+              <span class="work__visual-cat">Software Agency</span>
+            </div>
+            <div class="work__body">
+              <div class="work__row"><h3>Euphrates Tech</h3><span class="work__year">2025</span></div>
+              <p>Euphrates Tech designs, builds and maintains custom software for startups and enterprises across Africa, Europe and the US. I designed the website that turns their six-phase delivery process into a clear, trustworthy pitch.</p>
+              <ul class="work__tags"><li>Figma Design</li><li>Web Design</li><li>UX Strategy</li></ul>
+            </div>
+          </a>
+        </li>
+        <li class="work__card" data-hue="280" data-type="shipped">
+          <a href="https://uxifydev.com" target="_blank" rel="noopener">
+            <div class="work__visual" aria-hidden="true">
+              <b>Ux</b>
+              <img src="assets/uxifydev-cover.jpg" alt="" loading="lazy" />
+              <span class="work__visual-cat">Design Education</span>
+            </div>
+            <div class="work__body">
+              <div class="work__row"><h3>UXifyDev</h3><span class="work__year">2023</span></div>
+              <p>UXifyDev is a design education platform running hands-on UI/UX bootcamps that take beginners to portfolio-ready designers. I designed and shipped the conversion-focused website end to end.</p>
+              <ul class="work__tags"><li>Figma Design</li><li>Framer Build</li><li>Motion Interaction</li></ul>
+            </div>
+          </a>
+        </li>
+        <li class="work__card" data-hue="150" data-type="case">
+          <a href="https://www.behance.net/TiminiOfLagos" target="_blank" rel="noopener">
+            <div class="work__visual" aria-hidden="true">
+              <b>mF</b>
+              <img src="assets/myfinsight-cover.jpg" alt="" loading="lazy" />
+              <span class="work__visual-cat">SaaS · Fintech</span>
+              <span class="work__visual-status work__visual-status--soft">Case study</span>
+            </div>
+            <div class="work__body">
+              <div class="work__row"><h3>myFinsight.AI</h3><span class="work__year">2024</span></div>
+              <p>myFinsight.AI was an AI fintech concept built with a founding team: helping banks and fintechs turn raw financial data into personalized customer insights. I designed the landing page end to end; the product didn't reach launch.</p>
+              <ul class="work__tags"><li>Figma Design</li><li>Landing Page</li><li>Web App</li></ul>
+            </div>
+          </a>
+        </li>
+        <li class="work__card" data-hue="42" data-type="case">
+          <a href="https://www.behance.net/TiminiOfLagos" target="_blank" rel="noopener">
+            <div class="work__visual" aria-hidden="true">
+              <b>Pr</b>
+              <img src="assets/providus-cover.jpg" alt="" loading="lazy" />
+              <span class="work__visual-cat">Mobile Banking</span>
+              <span class="work__visual-status work__visual-status--soft">Concept redesign</span>
+            </div>
+            <div class="work__body">
+              <div class="work__row"><h3>Providus Bank</h3><span class="work__year">2024</span></div>
+              <p>Providus is a Nigerian commercial bank serving retail and business customers. This is a self-initiated redesign of their mobile banking experience, built around clarity, trust and everyday confidence.</p>
+              <ul class="work__tags"><li>UX Research</li><li>Mobile App</li><li>Figma Design</li></ul>
+            </div>
+          </a>
+        </li>
+        <li class="work__card" data-hue="330" data-type="case">
+          <a href="https://www.behance.net/TiminiOfLagos" target="_blank" rel="noopener">
+            <div class="work__visual" aria-hidden="true">
+              <b>P4</b>
+              <img src="assets/pay4me-cover.jpg" alt="" loading="lazy" />
+              <span class="work__visual-cat">EdTech · Fintech</span>
+              <span class="work__visual-status work__visual-status--soft">Concept redesign</span>
+            </div>
+            <div class="work__body">
+              <div class="work__row"><h3>Pay4Me App</h3><span class="work__year">2023</span></div>
+              <p>Pay4Me helps international students pay tuition and fees across borders. This is a self-initiated redesign that simplifies high-stakes payment flows into steps anyone can follow.</p>
+              <ul class="work__tags"><li>UX Audit</li><li>UI Redesign</li><li>Mobile App</li></ul>
+            </div>
+          </a>
+        </li>
+      </ul>
+
+    </section>
+
+    <!-- ======= CURRENTLY BUILDING ======= -->
+    <section class="building" id="building">
+      <span class="spotlight__badge" data-reveal>Currently building</span>
+      <article class="building__card" data-reveal>
+        <div class="building__info">
+          <span class="spotlight__tag">Concierge · On-demand · Lagos</span>
+          <h2 class="spotlight__title">
+            <span class="spotlight__title-serif building__serif">DirectDrop:</span>
+            errands and market runs, handled by vetted shoppers
+          </h2>
+          <p class="spotlight__copy">
+            DirectDrop is my own product, currently in the build phase. Vetted
+            shoppers handle groceries, market runs and everyday errands for
+            busy Lagosians, checking with you before swapping a single item.
+            I own it end to end: the business model, the strategy and the
+            product design.
+          </p>
+          <ul class="spotlight__points">
+            <li>Founder & product owner</li>
+            <li>UX strategy & business model</li>
+            <li>End-to-end product design</li>
+          </ul>
+        </div>
+        <div class="building__visual" aria-hidden="true">
+          <span class="building__logo">
+            <svg viewBox="0 0 64 64" aria-hidden="true">
+              <circle cx="32" cy="32" r="32" fill="#1fa54e"/>
+              <g transform="translate(16,16) scale(1.333)" fill="none" stroke="#fff" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m7.5 4.27 9 5.15"/>
+                <path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/>
+                <path d="m3.3 7 8.7 5 8.7-5"/>
+                <path d="M12 22V12"/>
+              </g>
+            </svg>
+            <em>Direct Drop</em>
+          </span>
+          <span class="building__status">In development</span>
+        </div>
+      </article>
+    </section>
+
+    <!-- ======= SPOTLIGHT / IMPACT ======= -->
+    <section class="spotlight" id="spotlight">
+      <span class="spotlight__badge" data-reveal>Featured impact</span>
+      <div class="spotlight__grid">
+
+        <article class="spotlight__card spotlight__card--ember" data-reveal>
+          <span class="spotlight__tag">AI · Language data</span>
+          <h2 class="spotlight__title">
+            <span class="spotlight__title-serif">LangEasy:</span>
+            building Nigeria's largest native-language dataset for AI
+          </h2>
+          <p class="spotlight__copy">
+            I led the end-to-end product design of LangEasy, a multilingual
+            platform for collecting Nigerian voice and text data, used by
+            1,000+ contributors and supporting over 400,000 submissions. I
+            also designed its QA system: the structured queues and validation
+            workflows that keep the dataset clean. Together they form the
+            groundwork for Nigeria's first large language model.
+          </p>
+          <ul class="spotlight__points">
+            <li>Product naming & brand direction</li>
+            <li>1,000+ users · 400,000+ submissions</li>
+            <li>QA system & validation workflows</li>
+          </ul>
+          <a class="spotlight__link" href="https://langeasy.ai/" target="_blank" rel="noopener" data-magnetic>
+            Visit the platform
+            <svg width="13" height="13" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M2 12 12 2M4 2h8v8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </article>
+
+        <article class="spotlight__card spotlight__card--green" data-reveal>
+          <span class="spotlight__tag">GovTech · Justice</span>
+          <h2 class="spotlight__title">
+            <span class="spotlight__title-serif">NPF Statement Capture:</span>
+            AI statement infrastructure for the Nigeria Police Force
+          </h2>
+          <p class="spotlight__copy">
+            At Awarri, I designed NPF Statement Capture, a platform that turns
+            spoken statements in Hausa, Igbo, Naijá and more into formal,
+            court-ready English records in real time. Streaming transcription,
+            read-back verification and a cryptographically sealed chain of
+            custody, built to hold up from the station desk to the courtroom.
+          </p>
+          <ul class="spotlight__points">
+            <li>Real-time multilingual transcription</li>
+            <li>Chain-of-custody & sealed records</li>
+            <li>Officer, commander & admin flows</li>
+          </ul>
+          <a class="spotlight__link" href="https://npf.awarri.com/#/landing" target="_blank" rel="noopener" data-magnetic>
+            Visit the platform
+            <svg width="13" height="13" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M2 12 12 2M4 2h8v8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ======= CAPABILITIES ======= -->
+    <section class="caps" id="capabilities">
+      <div class="section-head">
+        <span class="section-head__index">03</span>
+        <span class="section-head__label">Capabilities</span>
+      </div>
+      <ul class="caps__list">
+        <li class="caps__item" data-reveal>
+          <span class="caps__num">01</span>
+          <h3>UX/UI Design</h3>
+          <p>User experience is how a product works: the research, the flows, the decisions that remove friction. User interface is how it speaks: type, colour, rhythm and detail. I practice them as one craft, so what works well also looks and feels right.</p>
+          <div class="caps__tools">
+            <span class="caps__tool" title="Figma"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M15.852 8.981h-4.588V0h4.588c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.491-4.49 4.491zm-3.117-1.471h3.117c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-3.117V7.51zm0 1.471H8.148c-2.476 0-4.49-2.014-4.49-4.49S5.672 0 8.148 0h4.588v8.981zm-4.587-7.51c-1.665 0-3.019 1.355-3.019 3.019s1.354 3.02 3.019 3.02h3.117V1.471H8.148zm4.587 15.019H8.148c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h4.588v8.98zM8.148 8.981c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h3.117V8.981H8.148zM8.172 24c-2.489 0-4.515-2.014-4.515-4.49s2.014-4.49 4.49-4.49h4.588v4.441c0 2.503-2.047 4.539-4.563 4.539zm-.024-7.51a3.023 3.023 0 0 0-3.019 3.019c0 1.665 1.365 3.019 3.043 3.019 1.705 0 3.093-1.376 3.093-3.068v-2.97H8.148zm7.704 0h-.098c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h.098c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.49-4.49 4.49zm-.097-7.509c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h.098c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-.098z"/></svg></span>
+            <span class="caps__tool" title="FigJam"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 19 7-7 3 3-7 7-3-3z"/><path d="m18 13-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="m2 2 7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg></span>
+            <span class="caps__tool" title="Miro"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 21V7l4 4 3-8 3 8 4-4v14"/></svg></span>
+            <span class="caps__tool" title="Google Docs"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M16 13H8"/><path d="M16 17H8"/><path d="M10 9H8"/></svg></span>
+          </div>
+        </li>
+        <li class="caps__item" data-reveal>
+          <span class="caps__num">02</span>
+          <h3>Design Systems</h3>
+          <p>I build scalable component libraries and style guides that keep teams fast, products consistent and handoffs painless as everything grows.</p>
+          <div class="caps__tools">
+            <span class="caps__tool" title="Figma"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M15.852 8.981h-4.588V0h4.588c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.491-4.49 4.491zm-3.117-1.471h3.117c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-3.117V7.51zm0 1.471H8.148c-2.476 0-4.49-2.014-4.49-4.49S5.672 0 8.148 0h4.588v8.981zm-4.587-7.51c-1.665 0-3.019 1.355-3.019 3.019s1.354 3.02 3.019 3.02h3.117V1.471H8.148zm4.587 15.019H8.148c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h4.588v8.98zM8.148 8.981c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h3.117V8.981H8.148zM8.172 24c-2.489 0-4.515-2.014-4.515-4.49s2.014-4.49 4.49-4.49h4.588v4.441c0 2.503-2.047 4.539-4.563 4.539zm-.024-7.51a3.023 3.023 0 0 0-3.019 3.019c0 1.665 1.365 3.019 3.043 3.019 1.705 0 3.093-1.376 3.093-3.068v-2.97H8.148zm7.704 0h-.098c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h.098c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.49-4.49 4.49zm-.097-7.509c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h.098c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-.098z"/></svg></span>
+            <span class="caps__tool" title="Design tokens"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg></span>
+          </div>
+        </li>
+        <li class="caps__item" data-reveal>
+          <span class="caps__num">03</span>
+          <h3>Website Development</h3>
+          <p>I take websites from Figma file to live site myself, in Framer or Webflow depending on what the project needs. No handoff gap, no translation loss: the design you approve is the site that ships.</p>
+          <div class="caps__tools">
+            <span class="caps__tool" title="Framer"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 0h16v8h-8zM4 8h8l8 8H4zM4 16h8v8z"/></svg></span>
+            <span class="caps__tool" title="Webflow"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 4.515l-7.658 14.97H9.149l3.205-6.204h-.144C9.566 16.714 5.621 18.973 0 19.485v-6.118s3.596-.213 5.71-2.435H0V4.515h6.417v5.278l.144-.001 2.622-5.277h4.854v5.244h.144l2.72-5.244H24z"/></svg></span>
+          </div>
+        </li>
+        <li class="caps__item" data-reveal>
+          <span class="caps__num">04</span>
+          <h3>Ongoing Support</h3>
+          <p>I stay involved after launch. Whether it's a quick fix, a new page or a performance pass, the products I ship keep improving instead of quietly going stale.</p>
+          <div class="caps__tools">
+            <span class="caps__tool" title="Support"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+            <span class="caps__tool" title="Maintenance"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></span>
+          </div>
+        </li>
+        <li class="caps__item" data-reveal>
+          <span class="caps__num">05</span>
+          <h3>AI & Data Products</h3>
+          <p>I design the human side of AI: data collection platforms, personalization engines and ML-powered experiences people actually trust and use.</p>
+          <div class="caps__tools">
+            <span class="caps__tool" title="AI products"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.2 6.6L21 11l-6.8 2.4L12 20l-2.2-6.6L3 11l6.8-2.4L12 2z"/><path d="M19 15l.9 2.6L22.5 18.5l-2.6.9L19 22l-.9-2.6-2.6-.9 2.6-.9L19 15z"/></svg></span>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ======= TESTIMONIALS ======= -->
+    <section class="testi" id="testimonials">
+      <div class="section-head">
+        <span class="section-head__index">04</span>
+        <span class="section-head__label">What people say</span>
+        <span class="section-head__note">Founders & teams</span>
+      </div>
+      <ul class="testi__grid">
+        <li class="testi__card" data-reveal>
+          <span class="testi__mark" aria-hidden="true">"</span>
+          <blockquote>
+            <p>I've had the pleasure of working closely with Oluwadamilola on the same product team, and his design thinking consistently elevates our work. He has a strong eye for detail, a deep understanding of user needs, and collaborates seamlessly with engineers to turn ideas into polished experiences. Any team would be lucky to have him.</p>
+            <footer>
+              <span class="testi__avatar" aria-hidden="true">AA</span>
+              <span class="testi__who"><b>Adeyemi Samuel Adepoju</b><span>Frontend Engineer</span></span>
+            </footer>
+          </blockquote>
+        </li>
+        <li class="testi__card" data-reveal>
+          <span class="testi__mark" aria-hidden="true">"</span>
+          <blockquote>
+            <p>Salami demonstrated strong design skills in creating user-friendly interfaces, leveraging his understanding of user experience principles. His ability to analyze workflows and translate them into intuitive designs made him a valuable asset to the team. I highly recommend him for any role requiring strong design skills and a collaborative mindset.</p>
+            <footer>
+              <span class="testi__avatar" aria-hidden="true">PM</span>
+              <span class="testi__who"><b>Paul N. Musau</b><span>Founder, Fikeni</span></span>
+            </footer>
+          </blockquote>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ======= FAQ ======= -->
+    <section class="faq" id="faq">
+      <div class="section-head">
+        <span class="section-head__index">05</span>
+        <span class="section-head__label">Quick FAQ</span>
+      </div>
+      <div class="faq__list">
+        <details class="faq__item">
+          <summary>What can I book the strategy call for?<span class="faq__icon" aria-hidden="true"></span></summary>
+          <p>Anything product: a new website in Framer or Webflow, a product design engagement, a UX audit of an existing app, or advice on where to start. It's a free 30-minute Google Meet.</p>
+        </details>
+        <details class="faq__item">
+          <summary>Do you design and build?<span class="faq__icon" aria-hidden="true"></span></summary>
+          <p>Yes. I design in Figma and ship marketing sites myself in Framer or Webflow. For app products, I hand off developer-ready designs and stay close through implementation.</p>
+        </details>
+        <details class="faq__item">
+          <summary>How do you usually work?<span class="faq__icon" aria-hidden="true"></span></summary>
+          <p>Discovery first: I map goals, users and constraints, then move through wireframes, visual design and prototyping in quick feedback loops. You always know what's happening and why.</p>
+        </details>
+        <details class="faq__item">
+          <summary>How fast can we launch?<span class="faq__icon" aria-hidden="true"></span></summary>
+          <p>A focused landing page can go live in 1 to 2 weeks. Full websites and product engagements typically run 3 to 6 weeks depending on scope.</p>
+        </details>
+        <details class="faq__item">
+          <summary>Where are you based, and does timezone matter?<span class="faq__icon" aria-hidden="true"></span></summary>
+          <p>Lagos, Nigeria (WAT). I've worked with teams across Europe, North America and Africa, and overlap has never been a problem.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- ======= CONTACT / FOOTER ======= -->
+    <footer class="contact" id="contact">
+      <p class="contact__eyebrow" data-reveal>Have an idea worth building?</p>
+      <h2 class="contact__title">
+        <span class="contact__title-line" data-contact-line>Let's make it</span>
+        <span class="contact__title-line contact__title-line--serif" data-contact-line>intuitive.</span>
+      </h2>
+      <div class="contact__actions" data-reveal>
+        <a class="contact__book" href="https://calendly.com/salamitimileyin001/30min" target="_blank" rel="noopener" data-magnetic>
+          Book a strategy call
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M2 12 12 2M4 2h8v8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+      <p class="contact__note" data-reveal>A free 30-minute Google Meet, for product design or website development.</p>
+      <div class="contact__row" data-reveal>
+        <nav class="contact__socials" aria-label="Social links">
+          <a href="https://www.linkedin.com/in/oluwadamilola-salami-4563b623a/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn" data-magnetic>
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.55C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.72C24 .77 23.2 0 22.22 0z"/></svg>
+          </a>
+          <!-- TODO: replace # with your X profile URL -->
+          <a href="#" aria-label="X (Twitter)" title="X" data-magnetic>
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.9 1.15h3.68l-8.04 9.19L24 22.85h-7.41l-5.8-7.58-6.64 7.58H.47l8.6-9.83L0 1.15h7.59l5.24 6.93 6.07-6.93zm-1.29 19.5h2.04L6.49 3.24H4.3l13.31 17.41z"/></svg>
+          </a>
+          <!-- TODO: replace # with your Instagram profile URL -->
+          <a href="#" aria-label="Instagram" title="Instagram" data-magnetic>
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.72 3.72 0 0 1-1.38-.9 3.72 3.72 0 0 1-.9-1.38c-.16-.42-.36-1.06-.41-2.23-.06-1.27-.07-1.65-.07-4.85s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41 1.27-.06 1.65-.07 4.85-.07M12 0C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.14.63c-.79.3-1.46.72-2.13 1.38A5.88 5.88 0 0 0 .63 4.14C.33 4.9.13 5.78.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.27.26 2.15.56 2.91.3.79.72 1.46 1.38 2.13.67.66 1.34 1.08 2.13 1.38.76.3 1.64.5 2.91.56 1.28.06 1.69.07 4.95.07s3.67-.01 4.95-.07c1.27-.06 2.15-.26 2.91-.56a5.88 5.88 0 0 0 2.13-1.38 5.88 5.88 0 0 0 1.38-2.13c.3-.76.5-1.64.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.27-.26-2.15-.56-2.91a5.88 5.88 0 0 0-1.38-2.13A5.88 5.88 0 0 0 19.86.63c-.76-.3-1.64-.5-2.91-.56C15.67.01 15.26 0 12 0zm0 5.84A6.16 6.16 0 1 0 18.16 12 6.16 6.16 0 0 0 12 5.84zm0 10.15A4 4 0 1 1 16 12a4 4 0 0 1-4 4zm7.85-10.4a1.44 1.44 0 1 1-1.44-1.44 1.44 1.44 0 0 1 1.44 1.44z"/></svg>
+          </a>
+          <!-- TODO: replace # with your TikTok profile URL -->
+          <a href="#" aria-label="TikTok" title="TikTok" data-magnetic>
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.9 2.9 0 1 1-2.31-2.84v-3.5a6.37 6.37 0 1 0 5.76 6.34V8.69a8.19 8.19 0 0 0 4.77 1.52V6.75a4.85 4.85 0 0 1-1-.06z"/></svg>
+          </a>
+          <a href="https://www.behance.net/TiminiOfLagos" target="_blank" rel="noopener" aria-label="Behance" title="Behance" data-magnetic>
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7.44 5.35c.74 0 1.41.07 2.03.2.62.13 1.14.34 1.58.64.44.29.78.68 1.03 1.17.24.49.36 1.09.36 1.81 0 .78-.18 1.42-.53 1.94-.35.52-.88.94-1.57 1.27.95.27 1.65.75 2.12 1.43.47.68.7 1.5.7 2.46 0 .78-.15 1.45-.45 2.02a3.9 3.9 0 0 1-1.21 1.4c-.51.36-1.09.63-1.75.8-.65.17-1.32.26-2.01.26H0V5.35h7.44zM7 11.2c.61 0 1.11-.14 1.5-.43.39-.29.58-.76.58-1.41 0-.36-.06-.66-.19-.89a1.45 1.45 0 0 0-.51-.54c-.21-.13-.46-.22-.74-.27-.28-.05-.57-.08-.87-.08H3.24v3.62H7zm.19 6.15c.34 0 .66-.03.96-.1.31-.07.58-.18.8-.34.23-.16.42-.37.55-.64.14-.27.2-.61.2-1.03 0-.82-.23-1.4-.69-1.75-.46-.35-1.07-.52-1.83-.52H3.24v4.38h3.95zm9.75-.05c.44.43 1.07.64 1.9.64.59 0 1.1-.15 1.53-.45.43-.3.69-.61.79-.94h2.59c-.41 1.28-1.05 2.2-1.9 2.75-.86.55-1.9.83-3.11.83-.84 0-1.6-.13-2.28-.4a4.75 4.75 0 0 1-1.72-1.15 5.2 5.2 0 0 1-1.09-1.78 6.5 6.5 0 0 1-.38-2.27c0-.8.13-1.55.39-2.24a5.2 5.2 0 0 1 2.85-2.97 5.5 5.5 0 0 1 2.23-.44c.9 0 1.69.17 2.36.52.67.35 1.22.82 1.65 1.4.43.59.74 1.26.93 2.02.19.75.26 1.54.2 2.36h-7.72c0 .84.29 1.65.78 2.12zm3.36-5.72c-.35-.39-.93-.6-1.63-.6-.46 0-.84.08-1.15.23-.3.16-.55.35-.74.58a2.1 2.1 0 0 0-.4.72c-.08.25-.13.47-.14.67h4.78c-.07-.75-.33-1.22-.72-1.6zM15.06 6.19h5.98v1.45h-5.98V6.19z"/></svg>
+          </a>
+          <a href="https://medium.com/@salamitimileyin001" target="_blank" rel="noopener" aria-label="Medium" title="Medium" data-magnetic>
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.54 12a6.8 6.8 0 0 1-6.77 6.82A6.8 6.8 0 0 1 0 12a6.8 6.8 0 0 1 6.77-6.82A6.8 6.8 0 0 1 13.54 12zm7.42 0c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.87 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75S24 8.83 24 12z"/></svg>
+          </a>
+        </nav>
+        <p class="contact__fine">© 2026 Oluwadamilola Salami · Designed & built with intent · Lagos, Nigeria</p>
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- GSAP core + plugins (classic globals) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/SplitText.min.js"></script>
+  <script src="https://unpkg.com/lenis@1.1.14/dist/lenis.min.js"></script>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

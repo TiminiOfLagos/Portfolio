@@ -1,0 +1,17 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+.vscode/
+.idea/
+
+# Dependencies (none needed — static site), just in case
+node_modules/
+
+# Logs
+*.log
+
+# Local env
+.env
+.env.local
