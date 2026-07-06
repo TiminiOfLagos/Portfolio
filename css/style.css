@@ -167,6 +167,7 @@ body.menu-open .nav__burger span:last-child { transform: translateY(-3.3px) rota
   .nav__meta { display: none; }
   .nav__links { gap: 0.7rem; font-size: 0.88rem; }
   .nav__cta { padding: 0.5rem 0.95rem !important; font-size: 0.82rem; }
+  .menu .menu__links a { font-size: clamp(1.5rem, 8vw, 2.4rem); }
 }
 
 /* ============ MENU OVERLAY ============ */
@@ -732,7 +733,7 @@ body.menu-open .menu__foot { opacity: 1; }
 
 @media (max-width: 900px) {
   .abouthero { grid-template-columns: 1fr; }
-  .abouthero__portrait { position: static; max-width: 320px; }
+  .abouthero__portrait { position: static; max-width: none; }
 }
 
 /* ============ TESTIMONIALS ============ */
