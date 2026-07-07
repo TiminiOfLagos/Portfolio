@@ -585,13 +585,13 @@ body.menu-open .menu__foot { opacity: 1; }
     var(--bg-soft);
 }
 .spotlight__card--green .spotlight__title-serif { color: #63d78f; }
-.spotlight__card--blue {
+.spotlight__card--amber {
   background:
-    radial-gradient(90% 120% at 85% -10%, rgba(56, 120, 220, 0.17), transparent 55%),
-    radial-gradient(70% 100% at 0% 110%, rgba(28, 48, 110, 0.28), transparent 60%),
+    radial-gradient(90% 120% at 85% -10%, rgba(255, 140, 50, 0.18), transparent 55%),
+    radial-gradient(70% 100% at 0% 110%, rgba(150, 66, 18, 0.26), transparent 60%),
     var(--bg-soft);
 }
-.spotlight__card--blue .spotlight__title-serif { color: #74b4ff; }
+.spotlight__card--amber .spotlight__title-serif { color: #ff9e63; }
 .spotlight__tag {
   font-size: 0.72rem; letter-spacing: 0.2em; text-transform: uppercase;
   color: var(--ink-faint);
