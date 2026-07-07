@@ -736,6 +736,53 @@ body.menu-open .menu__foot { opacity: 1; }
   .abouthero__portrait { position: static; max-width: none; }
 }
 
+/* ============ SPEAKING & RECOGNITION ============ */
+.speaking { padding: clamp(4rem, 10vw, 8rem) var(--pad); }
+.speaking__intro {
+  max-width: 46rem;
+  color: var(--ink-dim);
+  font-size: clamp(1.05rem, 2vw, 1.35rem);
+  line-height: 1.5;
+  margin-bottom: clamp(2rem, 5vw, 3.25rem);
+  text-wrap: balance;
+}
+.speaking__grid {
+  column-count: 2;
+  column-gap: clamp(1rem, 2.5vw, 1.75rem);
+}
+.speaking__card {
+  break-inside: avoid;
+  margin-bottom: clamp(1rem, 2.5vw, 1.75rem);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--bg-soft);
+  transition: border-color 0.35s ease, transform 0.45s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.speaking__card:hover { border-color: rgba(242, 237, 230, 0.28); transform: translateY(-4px); }
+.speaking__media { display: block; line-height: 0; }
+.speaking__media img { width: 100%; height: auto; display: block; }
+.speaking__meta { padding: clamp(1.1rem, 2.5vw, 1.6rem); }
+.speaking__role {
+  display: inline-block;
+  font-size: 0.72rem; letter-spacing: 0.16em; text-transform: uppercase;
+  color: var(--bg); background: var(--accent);
+  padding: 0.32rem 0.75rem; border-radius: 99px;
+  margin-bottom: 0.9rem;
+}
+.speaking__meta h3 {
+  font-size: clamp(1.1rem, 2vw, 1.4rem);
+  font-weight: 500; letter-spacing: -0.01em;
+  margin-bottom: 0.35rem;
+}
+.speaking__meta > p { color: var(--ink-dim); font-size: 0.9rem; }
+.speaking__date {
+  display: block; margin-top: 0.6rem;
+  color: var(--ink-faint); font-size: 0.82rem;
+  font-variant-numeric: tabular-nums;
+}
+@media (max-width: 720px) { .speaking__grid { column-count: 1; } }
+
 /* ============ TESTIMONIALS ============ */
 .testi { padding: clamp(4rem, 10vw, 8rem) var(--pad); }
 .testi__grid {
