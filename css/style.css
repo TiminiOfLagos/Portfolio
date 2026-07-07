@@ -560,8 +560,16 @@ body.menu-open .menu__foot { opacity: 1; }
 }
 .spotlight__grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: clamp(1rem, 2.5vw, 1.75rem);
+}
+/* if the last card is the odd one out, center it in its row */
+@media (min-width: 981px) {
+  .spotlight__grid > .spotlight__card:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+    max-width: calc((100% - clamp(1rem, 2.5vw, 1.75rem)) / 2);
+    justify-self: center;
+  }
 }
 .spotlight__card {
   position: relative;
