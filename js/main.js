@@ -199,18 +199,18 @@ if (!prefersReducedMotion && typeof Lenis !== "undefined") {
   const tl = gsap.timeline();
   const counter = { v: 0 };
 
-  tl.to(".preloader__line", { y: 0, duration: 0.9, stagger: 0.12, ease: "power4.out" })
+  tl.to(".preloader__line", { y: 0, duration: 0.55, stagger: 0.08, ease: "power4.out" })
     .to(counter, {
-      v: 100, duration: 1.1, ease: "power2.inOut",
+      v: 100, duration: 0.65, ease: "power2.inOut",
       onUpdate: () => { count.textContent = Math.round(counter.v); },
     }, 0)
-    .to(".preloader__line", { y: "-110%", duration: 0.7, stagger: 0.08, ease: "power3.in" }, ">-0.1")
+    .to(".preloader__line", { y: "-110%", duration: 0.4, stagger: 0.05, ease: "power3.in" }, ">-0.05")
     .to(preloader, {
-      yPercent: -100, duration: 0.9, ease: "power4.inOut",
+      yPercent: -100, duration: 0.6, ease: "power4.inOut",
       onComplete: () => preloader.remove(),
-    }, ">-0.25")
-    .to(heroInners, { yPercent: 0, duration: 1.3, stagger: 0.14, ease: "power4.out" }, "<0.35")
-    .to(heroFades, { opacity: 1, duration: 1.1, stagger: 0.12, ease: "power2.out" }, "<0.4");
+    }, ">-0.2")
+    .to(heroInners, { yPercent: 0, duration: 1.1, stagger: 0.12, ease: "power4.out" }, "<0.3")
+    .to(heroFades, { opacity: 1, duration: 0.9, stagger: 0.1, ease: "power2.out" }, "<0.35");
 })();
 
 /* ------------------------------------------------------------
